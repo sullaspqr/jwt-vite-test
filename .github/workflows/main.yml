@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     container:
-      image: oven/bun:1.1.41
+      image: oven/bun:latest
 
     steps:
       - name: Checkout repository
